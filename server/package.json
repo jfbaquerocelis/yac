@@ -1,0 +1,30 @@
+{
+  "name": "yac-backend",
+  "version": "1.0.0",
+  "description": "Realtime server for chat build in React.js with Redux",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfbaquerocelis/yac-backend.git"
+  },
+  "keywords": [],
+  "author": "John Baquero Celis <jfbaquerocelis@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfbaquerocelis/yac-backend/issues"
+  },
+  "homepage": "https://github.com/jfbaquerocelis/yac-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^6.3.3",
+    "socket.io": "^2.2.0",
+    "youtube-search": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
